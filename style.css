@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 200px;
+}
+
+.container {
+    width: 350px;
+    border: 2px solid black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding:20px;
+    height: auto;
+}
+
+.head {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.boxcontainer {
+    display: flex;
+}
+
+p {
+    font-size: 2.5vh;
+    color: rgb(117, 117, 117);
+    padding: 5px 2px;
+}
+
+.box1 {
+  margin-right: 20px;
+}
+
+.box2{
+    width: 52%;
+}
+#takeDegree , #unit {
+    width: 100%;
+    height: 25px;
+    font-size: 18px;
+    border: none;
+    border-bottom: 1px solid rgb(124, 128, 131);
+}
+
+.valueconatainer {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.result {
+    width: 100%;
+    height: 30px;
+    margin: 4px 0;
+    font-size: 1.4rem;
+    border-bottom: 1px solid rgb(124, 128, 131);
+}
+
+.button {
+    width: auto;
+    height: auto;
+    padding: 5px;
+    font-size: 20px;
+    color: rgb(0, 255, 64);
+    background-color: rgb(7, 7, 85);
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    top: 15px;
+    left:100px;
+    font-size: large;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.button:hover {
+      color: red;
+      background-color: rgb(19, 19, 146);
+}
